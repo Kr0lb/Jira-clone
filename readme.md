@@ -1,4 +1,8 @@
 **Запуск**
-- Создать файл env в папке /serve, инициализировать значение SECRET_KEY=****
-- запустить server.js
-- запустить client
+- запустить docker engine
+- заменить '???' на необходимые значения
+  -     SECRET_KEY: ??? 
+        MONGODB_DOMEN: ??? 
+        FRONTEND_URI: ???
+        REACT_APP_API_BASE_URL=???
+- запустить приложение командой: docker compose up 
